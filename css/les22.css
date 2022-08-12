@@ -1,0 +1,62 @@
+/* stylesheet behorende bij huiswerkopdracht les 22 */
+
+body{
+  background-color: #bfd3c1;
+  margin: 6px;
+  padding: 6px;
+}
+section{
+  background-color: #68a691;
+  padding: 10px;
+  }
+
+#welkom{
+  text-align: center;
+}
+img {
+width: 200px;
+height: 200px;
+margin: 5px;
+border-radius: 4px;
+border-style: solid;
+border-color: green;
+}
+
+footer{
+  height: 200px;
+  background-color: #694f5d;
+  text-align: center;
+  padding-top: 100px;
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  color: white;
+}
+
+nav{
+  background-color: #694f5d;
+}
+
+header{
+  background-image: url(header.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #694f5d;
+  height: 200px;
+  width: auto;
+}
+
+
+
+input[type="text"], input[type="email"], textarea, select, button{
+  display: center;
+  width: 400px;
+  box-sizing: border-box;
+  padding: 5px 4px;
+  border-radius: 5px;
+}
+textarea{
+  height: 100px;
+}
+.btn{
+        background-color: #694f5d;
+}
